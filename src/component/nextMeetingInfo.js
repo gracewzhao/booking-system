@@ -6,9 +6,9 @@ class NextMeetingInfo extends React.Component {
 
         return (
             <div>
-                <h3>Next Meeting: {timeNext} 15:30 - 16: 40</h3>
-                <p className='lrn-meeting-title'>Title: {titleNext} Assessment // OKRs</p>
-                <h4 className='lrn-meeting-host'>Booked by {hostNext} Grace W Zhao</h4>
+                <h4>Next Meeting: {titleNext}</h4>
+                <h4 className='lrn-meeting-time'>{timeNext}</h4>
+                <p className='lrn-meeting-host'>Booked by {hostNext}</p>
             </div>
         );
     }
