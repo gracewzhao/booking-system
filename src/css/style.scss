@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+#usa,
+#australia {
+  background: red;
+
+  .lrn-booking-logo {
+    width: 100px;
+    height: 80px;
+  }
+}

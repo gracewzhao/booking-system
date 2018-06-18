@@ -1,2 +1,2 @@
 # booking-system
-Meeting room booking system
+meeting room booking system

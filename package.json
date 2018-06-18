@@ -1,0 +1,38 @@
+{
+  "name": "booking-system",
+  "version": "1.0.0",
+  "description": "meeting room booking system",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development --output-public-path dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gracewzhao/booking-system.git"
+  },
+  "keywords": [
+    "booking"
+  ],
+  "author": "Grace W Zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gracewzhao/booking-system/issues"
+  },
+  "homepage": "https://github.com/gracewzhao/booking-system#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-react": "^7.0.0-beta.49",
+    "babel-loader": "^8.0.0-beta.3",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
