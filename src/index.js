@@ -17,7 +17,7 @@ const states = {
         roomName: 'AUSTRALIA',
         title: 'Team Assessment Sprint Retrospective',
         host: 'Grace W Zhao',
-        time: '13:00 - 14:00 19th June 2018',
+        time: '13:00 - 15:15 19th June 2018',
         titleNext: 'Weekly Catchup',
         timeNext: '15:30 - 16: 40 19th June 2018',
         hostNext: 'Grace W Zhao'
@@ -30,6 +30,6 @@ ReactDom.render(
 );
 
 ReactDom.render(
-    <MeetingInfoContainer {...states.auStates}/>,
+    <MeetingInfoContainer {...states.auStates} showClock={true}/>,
     document.getElementById('australia')
 );
