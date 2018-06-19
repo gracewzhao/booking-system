@@ -23,10 +23,10 @@ class CurrentMeetingInfo extends React.Component {
 
         return (
             <div className='lrn-current-meeting'>
-                <h2 className='lrn-meeting-head'>Current Meeting</h2>
-                <h4 className='lrn-meeting-title'>{title}</h4>
-                <h4 className='lrn-meeting-time'>{time}</h4>
-                <h3 className='lrn-meeting-host'>{host} </h3>
+                <h2>Current Meeting</h2>
+                <h4>{title}</h4>
+                <h4>{time}</h4>
+                <h5>{host} </h5>
                 <img className='lrn-booking-logo' src={logo}/>
             </div>
         );
