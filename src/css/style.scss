@@ -1,23 +1,66 @@
 #usa,
 #australia {
+    width: 500px;
     height: 730px;
+    padding: 0;
 }
 
-.lrn-isAvailable {
-  background: white;
-  border-right: 1px solid #cccccc;
+.lrn-available {
+    background: white;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    height: 100%;
+    width: 100%;
+
+    .lrn-next-meeting {
+        bottom: 200px;
+        left: 75px;
+    }
 }
 
-.lrn-isTake {
-  background: #CE1632;
-  color: #ffffff;
+.lrn-taken {
+    background: #CE1632;
+    border-left: 1px solid #e14747;
+    border-right: 1px solid #e14747;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+}
 
-  h3 {
+.lrn-room-name {
+    margin: 10px;
+}
+
+img.lrn-booking-logo {
+    width: 300px;
+    height: 300px;
+    margin-left: 20%;
+}
+
+.lrn-room-available {
+    margin-top: 40%;
+    margin-bottom: 20%;
     text-align: center;
-  }
+
+    h1 {
+        line-height: 1.4;
+    }
 }
 
-.lrn-booking-logo {
-  width: 400px;
-  height: 400px;
+.lrn-current-meeting,
+.lrn-next-meeting {
+    h1, h2, h3, h4, p {
+        text-align: center;
+    }
+}
+
+.lrn-current-meeting {
+    margin-top: 50px;
+}
+
+.lrn-next-meeting {
+    position: absolute;
+    height: 100px;
+    bottom: 30px;
+    left: 75px;
 }

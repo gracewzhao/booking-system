@@ -6,7 +6,7 @@ class MeetingInfoContainer extends React.Component {
     render() {
         const props = this.props;
         const { roomName } = props;
-        const roomStates = this.isMeetingOn() ? 'lrn-isTake' : 'lrn-isAvailable';
+        const roomStates = this.isMeetingOn() ? 'lrn-taken' : 'lrn-available';
 
         return (
             <div className={roomStates}>

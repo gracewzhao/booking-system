@@ -22,10 +22,10 @@ class CurrentMeetingInfo extends React.Component {
         const { time, title, host } = this.props;
 
         return (
-            <div>
-                <h1 className='lrn-meeting-head'>Current Meeting</h1>
-                <h3 className='lrn-meeting-title'>{title}</h3>
-                <h3 className='lrn-meeting-time'>{time}</h3>
+            <div className='lrn-current-meeting'>
+                <h2 className='lrn-meeting-head'>Current Meeting</h2>
+                <h4 className='lrn-meeting-title'>{title}</h4>
+                <h4 className='lrn-meeting-time'>{time}</h4>
                 <h3 className='lrn-meeting-host'>{host} </h3>
                 <img className='lrn-booking-logo' src={logo}/>
             </div>

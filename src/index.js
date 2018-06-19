@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import MeetingInfoContainer from './component/meetingInfoContainer';
-import './css/index.css';
+import './css/style.scss';
 
 const states = {
     usaStates: {
@@ -17,7 +17,7 @@ const states = {
         roomName: 'AUSTRALIA',
         title: 'Team Assessment Sprint Retrospective',
         host: 'Grace W Zhao',
-        time: '14:00 - 18:00 19th June 2018',
+        time: '13:00 - 14:00 19th June 2018',
         titleNext: 'Weekly Catchup',
         timeNext: '15:30 - 16: 40 19th June 2018',
         hostNext: 'Grace W Zhao'

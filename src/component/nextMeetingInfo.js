@@ -5,7 +5,7 @@ class NextMeetingInfo extends React.Component {
         const { timeNext, titleNext, hostNext } = this.props;
 
         return (
-            <div>
+            <div className='lrn-next-meeting'>
                 <h4>Next Meeting: {titleNext}</h4>
                 <h4 className='lrn-meeting-time'>{timeNext}</h4>
                 <p className='lrn-meeting-host'>Booked by {hostNext}</p>
