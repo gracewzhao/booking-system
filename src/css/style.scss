@@ -23,6 +23,10 @@
         height: 750px;
         padding: 0;
     }
+
+    .lrn-next-meeting {
+        left: 30%;
+    }
 }
 
 .row {
@@ -44,7 +48,7 @@
 
     .lrn-next-meeting {
         bottom: 200px;
-        left: 75px;
+        left: 25%;
     }
 }
 
@@ -64,11 +68,11 @@
 img.lrn-booking-logo {
     width: 300px;
     height: 300px;
-    margin-left: 20%;
+    margin-left: 30%;
 }
 
 .lrn-room-available {
-    margin-top: 40%;
+    margin-top: 30%;
     margin-bottom: 20%;
     text-align: center;
 
@@ -91,6 +95,6 @@ img.lrn-booking-logo {
 .lrn-next-meeting {
     position: absolute;
     height: 100px;
-    bottom: 30px;
-    left: 75px;
+    bottom: 10%;
+    left: 30%;
 }
